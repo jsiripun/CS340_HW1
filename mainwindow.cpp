@@ -17,6 +17,17 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-    std::cout << "pushbutton " << std::endl;
+    std::cout << "pushbutton number 1" << std::endl;
 }
 
+
+void MainWindow::on_pushButton2_clicked()
+{
+    std::cout << "pushbutton number 2" << std::endl;
+}
+
+
+void MainWindow::on_pushButton3_clicked()
+{
+    std::cout << "pushbutton number 3" << std::endl;
+}
